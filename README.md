@@ -21,4 +21,4 @@ You can still authenticate by copying the returned state token, once authorized 
 
 ## License
 
-This tool is licensed under GNU GPL
+This tool is licensed under GNU GPL (see ![LICENSE.md](LICENSE.md)).
