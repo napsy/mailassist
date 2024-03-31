@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Conversations</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: "Source Serif 4", sans-serif;
+        }
+        .message {
+            border: 1px solid #ddd;
+            width: 650px;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            box-shadow: 0px 0px 5px rgb(177, 177, 177);
+        }
+        #title {
+            padding: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            background: black;
+            color: white;
+            text-align: center;
+            font-family: "Montserrat";
+        }
+        .button_done {
+            border: none;
+            padding: 10px 22px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            background-color: #555555;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="title">Mail Conversation</div>
+    <div id="messages"></div>
+    <script src="app.js"></script>
+</body>
+</html>
