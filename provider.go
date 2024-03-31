@@ -123,7 +123,7 @@ func (gmail *gmailProvider) fetch() ([]providerMessage, error) {
 		}
 		// Parse the internalDate of the message to check if it's within the last 30 minutes
 		internalDate := time.Unix(0, msg.InternalDate*int64(time.Millisecond))
-		if time.Since(internalDate).Minutes() > 3000 {
+		if time.Since(internalDate).Minutes() > 30 {
 			continue
 		}
 		if msg.Payload.Body.Size > 0 {
